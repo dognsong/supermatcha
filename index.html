@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SuperMatcha</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/mediascreen.css">
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+    <script src="/js/main.js"></script>
+
+</head>
+<body>
+    <!-- 상단영역 시작 -->
+    <div id="header_wrap">
+        <header>
+            <h1 id="logo"><a href="#;">SUPER MATCHA</a></h1>
+            <nav id="mainmenu">
+                <ul id="mainmenu_list">
+                    <li><a href="#;">ABOUT</a></li>
+                    <li><a href="#;">SHOP</a></li>
+                    <li><a href="#;">REVIEW</a></li>
+                    <li><a href="#;">STORES</a></li>
+                    <li><a href="#;">WHOLESALE</a></li>
+                </ul>
+            </nav>
+            <div id="search_wrap">
+                <input type="text" id="search_box" maxlength="30" placeholder="검색어를 입력하세요" autocomplete="off">
+                <span id="serch_icon"><img src="/images/search_icon.png" alt="검색하기"></span>
+            </div>
+        </header>
+    </div>
+    <!-- 상단영역 끝 -->
+    <!-- 비주얼영역 시작 -->
+    <div id="visual_wrap">
+        <div id="visual_01">
+            <div id="visual_btn">
+                <span id="visual_prev_btn"><a href="#;"><img src="/images/visual_prev_btn.png" alt="이전비주얼보기"></a></span>
+                <span id="visual_btn_line"></span>
+                <span id="visual_next_btn"><a href="#;"><img src="/images/visual_next_btn.png" alt="다음비주얼보기"></a></span>
+            </div>
+        </div>
+        <div id="visual_02"></div>
+        <div id="visual_03"></div>
+    </div>
+    <!-- 비주얼영역 끝 -->
+    <!-- brand영역 시작 -->
+    <div id="brand_wrap">
+        <section id="brand_01">
+            <h2 class="hidden">슈퍼말차브랜드소개1</h2>
+            <div id="brand_01_tbox">
+                <p class="brand_title">NO SUGAR.<br>NO ARTIFICIAL.<br>NO MILK POWDER.<br><br>YES, ALL NATURAL!
+                    <span id="brand_01_title_solid"></span>
+                </p>
+                <p class="brand_text brand_01_text">WHY SUPER MATCHA?<br>시중의 녹차라떼 제품은 대다수 설탕이나 인공 첨가물이 80%이상 함유되어 말차를 건강하게 즐기고 싶은 사람들에게는 설탕라떼에 가까운 단 맛과 고칼로리 걱정에 꺼려지게 됩니다. 슈퍼말차는 이를 개선하기 위해 100% 유기농 보성산 말차와 천연 재료만을 더해 건강하고 즐길 수 있는 블렌딩 말차를 개발했습니다.</p>
+            </div>
+            <div id="brand_01_img"><img src="/images/brand_01_img.jpg" alt="슈퍼말차"></div>
+        </section>
+        <section id="brand_02">
+            <h2 class="hidden">슈퍼말차브랜드소개2</h2>
+            <div id="brand_02_img"><img src="/images/brand_02_img.jpg" alt="슈퍼말차"></div>
+            <div id="brand_02_tbox">
+                <p class="brand_title brand_02_title">100%<br>ORGANIC MATCHA
+                    <span id="brand_02_title_solid"></span>
+                </p>
+                <p class="brand_text brand_02_text">SUPER HERO OF TEAS<br>말차는 일반 가루녹차와 달리 여린 새싹이 올라올 무렵 햇빛을 차단한 차밭에서 재배한 찻잎을 증기로 쪄내기 때문에 떫은 맛은 훨씬 적고 영양소는 10배 이상 풍부합니다. 특히 전 세계적인 음료 트렌드로 자연 그대로를 섭취하는 로푸드를 지향하면서 말차를 주목하고 있습니다.</p>
+            </div>
+        </section>
+    </div>
+    <!-- brand영역 끝 -->
+    <!-- about영역 시작 -->
+    <section id="about_wrap">
+        <h2 class="hidden">슈퍼말차의힛더티</h2>
+        <div id="about_tbox">
+            <p id="about_title"><img src="/images/hitthetee_logo.png" alt="힛더티로고"></p>
+            <p id="about_subtitle">"차 한 잔 때리자!"</p>
+            <p id="about_text">재미있는 뜻의 힛더티는 설립 구성원이자 전문 티블렌더들이 만든 브랜드입니다. 힛더티만의 독창적인 레시피로 기존 무거웠던 국내 차 문화를 조금 더 건강하고, 편리하고, 위트있게 다가갈 수 있도록 하고자하며, 어떠한 차를 마시면 좋은지 새로운 접근으로 제안하는 라이프스타일 큐레이션 티 브랜드입니다. </p>
+        </div>
+        <div id="about_video_wrap">
+            <div id="about_video">
+                <video preload="auto" autoplay="true" loop="loop" muted="muted" loop data-setup="{}" poster="poster.jpg">
+                    <source src="video/SUPER MATCHA_Teaser_1.mp4" type="video/mp4">
+                    <source src="video/SUPER MATCHA_Teaser_1.webm" type="video/webm">
+                    <source src="video/SUPER MATCHA_Teaser_1.ogv" type="video/ogv"> 
+                </video> 
+            </div>
+        </div>
+    </section>
+    <!-- about영역 끝 -->
+    <!-- efficacy영역 시작 -->
+    <section id="efficacy_wrap">
+        <h2 class="hidden">말차의효능</h2>
+        <ul id="efficacy_list">
+            <li>
+                <div class="efficacy_tbox">
+                    <p class="efficacy_title">MATCHA EFFICACY</p>
+                    <p class="efficacy_subtitle">Antioxidants</p>
+                    <p class="efficacy_text">아사이베리보다 25배 강력한 항산화</p>
+                    <p class="efficacy_btn"><a href="#;"><img src="/images/efficacy_btn.png" alt="자세히보기"></a></p>
+                </div>
+                <div class="efficacy_infor">
+                    <p class="efficacy_infor_text">말차는 항산화 성분이 많이 들어있습니다. 특히 아사이베리나 브로콜리보다도 항산화 성분이 25배 이상 함유되어 있습니다.</p>
+                    <p class="efficacy_infor_img"><img src="/images/efficacy_01_img.png" alt="여러식품의항산화성분비교"></p>
+                </div>
+                <!-- <div class="gray_layer"></div> -->
+            </li>
+            <li>
+                <div class="efficacy_tbox">
+                    <p class="efficacy_title">MATCHA EFFICACY</p>
+                    <p class="efficacy_subtitle">Fat Burning</p>
+                    <p class="efficacy_text">팻버닝의 대표주자, 카테킨(EGCG)</p>
+                    <p class="efficacy_btn"><a href="#;"><img src="/images/efficacy_btn.png" alt="자세히보기"></a></p>
+                </div>
+                <div class="efficacy_infor">
+                    <p class="efficacy_infor_text">말차에는 카테킨 성분이 블루베리보다 20배 이상 들어있어 하루 에너지 소비량에 최대 40% 지방을 태워주는 역할을 합니다.</p>
+                    <p class="efficacy_infor_img efficacy_infor_02_img"><img src="/images/efficacy_02_img.png" alt="여러식품의항산화성분비교"></p>
+                </div>
+            </li>
+            <li>
+                <div class="efficacy_tbox">
+                    <p class="efficacy_title">MATCHA EFFICACY</p>
+                    <p class="efficacy_subtitle">Energy</p>
+                    <p class="efficacy_text">오래가는 에너자이저, L-테아닌</p>
+                    <p class="efficacy_btn"><a href="#;"><img src="/images/efficacy_btn.png" alt="자세히보기"></a></p>
+                </div>
+                <div class="efficacy_infor">
+                    <p class="efficacy_infor_text">말차 속 L-테아닌 성분은 커피나 에너지 드링크보다 단시간에 오는 각성 효과의 반응은 느리지만, 긴 시간 활력을 유지하게 합니다. 하루 적정량을 마셨을 경우 4~6시간 동안 지속되는 천연 에너지 부스터입니다.</p>
+                    <p class="efficacy_infor_img"><img src="/images/efficacy_03_img.png" alt="여러식품의항산화성분비교"></p>
+                </div>
+            </li>
+            
+        </ul>
+    </section>
+    <!-- efficacy영역 끝 -->
+    <!-- product영역 시작 -->
+    <section id="product_wrap">
+        <h2 id="product_title">BEST PRODUCT</h2>
+        <p id="product_subtitle">ENERGY BOOSTER / RICH ANTIOXIDANTS</p>
+        <div id="product_btn">
+            <span id="product_prev_btn"><a href="#;"><img src="/images/best_prev_btn.png" alt="이전상품보기"></a></span>
+            <span id="product_line"></span>
+            <span id="product_next_btn"><a href="#;"><img src="/images/best_next_btn.png" alt="다음상품보기"></a></span>
+        </div>
+        <ul id="product_list">
+            <li>
+                <a href="#;">
+                    <p class="product_img"><img src="/images/best_img00.png" alt="힛더티슈퍼말차"></p>
+                    <p class="product_name"><b>힛더티 슈퍼말차 500g</b></br>MATCHA 500g</p>
+                    <p class="product_price">72,000원</p>
+                </a>
+            </li>
+            <li>
+                <a href="#;">
+                    <p class="product_img"><img src="/images/best_img02.png" alt="다도키트세트"></p>
+                    <p class="product_name"><b>다도 키트 세트</b></br>MATCHA KIT SET</p>
+                    <p class="product_price">64,000원</p>
+                </a>
+            </li>
+            <li>
+                <a href="#;">
+                    <p class="product_img"><img src="/images/best_img03.png" alt="슈퍼말차텐""></p>
+                    <p class="product_name"><b>슈퍼말차 텐</b></br>SUPER 5 STICKS (10G X 5개)</p>
+                    <p class="product_price">7,900원</p>
+                </a>
+            </li>
+            <li>
+                <a href="#;">
+                    <p class="product_img"><img src="/images/best_img04.png" alt="코코말차텐"></p>
+                    <p class="product_name"><b>코코말차 텐</b></br>COCO 5 STICKS (10G X 5개)</p>
+                    <p class="product_price">7,900원</p>
+                </a>
+            </li>
+            <li>
+                <a href="#;">
+                    <p class="product_img"><img src="/images/best_img05.png" alt="코코말차텐"></p>
+                    <p class="product_name"><b>슈퍼말차 샘플 키트</b></br>SUPER MATCHA SAMPLE KIT</p>
+                    <p class="product_price">2,400원</p>
+                </a>
+            </li>
+            <li>
+                <a href="#;">
+                    <p class="product_img"><img src="/images/best_img00.png" alt="힛더티슈퍼말차"></p>
+                    <p class="product_name"><b>힛더티 슈퍼말차 500g</b></br>MATCHA 500g</p>
+                    <p class="product_price">72,000원</p>
+                </a>
+            </li>
+            <li>
+                <a href="#;">
+                    <p class="product_img"><img src="/images/best_img02.png" alt="다도키트세트"></p>
+                    <p class="product_name"><b>다도 키트 세트</b></br>MATCHA KIT SET</p>
+                    <p class="product_price">64,000원</p>
+                </a>
+            </li>
+            <li>
+                <a href="#;">
+                    <p class="product_img"><img src="/images/best_img03.png" alt="슈퍼말차텐""></p>
+                    <p class="product_name"><b>슈퍼말차 텐</b></br>SUPER 5 STICKS (10G X 5개)</p>
+                    <p class="product_price">7,900원</p>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <!-- product영역 끝 -->
+    <!-- recipes영역 시작 -->
+    <section id="recipes_wrap">
+        <h2 class="hidden">슈퍼말차의레시피</h2>
+        <div id="recipes_left">
+            <div id="recipes_name_box">
+                <p id="recipes_title">RECIPES</p>
+                <ul id="recipes_name_list">
+                    <li><a href="#;">MATCHA AFFOGATO</a></li>
+                    <li><a href="#;">SUPER MATCHA LATTE</a></li>
+                    <li><a href="#;">ESPRESSO DRINKS</a></li>
+                    <li><a href="#;">MATCHA LEMONADE</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="recipes_right">
+            <ul id="recipes_list">
+                <li>
+                    <div class="recipes_tbox">
+                        <p class="recipes_name">SUPER MATCHA AFFOGATO-DESSERTS</br>#SUPER #COCO #CHAI</p>
+                        <p class="recipes_text"><b>INGREDIENTS</b></br>제품 10~12g</br>뜨거운 물 20mL</br>아이스크림 3스쿱</br></br><b>HOW TO MAKE</b></br>1.제품과 뜨거운 물을 붓고 잘 풀어준다.</br>2.보울에 아이스크림을 담은 후, 풀어진 말차 원액을 붓는다.</br></br><b>TIPS</b></br>-기호에 따라 견과류나 과일을 토핑으로 활용 가능</br>-아이스크림과 슈퍼말차 종류에 따라 다양한 조합 가능</p>
+                    </div>
+                    <div class="recipes_img"><img src="/images/recipes_img01.gif" alt="슈퍼말차아포가토"></div>
+                </li>
+                <li>
+                    <div class="recipes_tbox">
+                        <p class="recipes_name">ICED SUPER MATCHA LATTE -DRINKS</br>#SUPER #COCO #CHAI</p>
+                        <p class="recipes_text"><b>INGREDIENTS</b></br>제품 10~12g</br>우유 130~150mL</br>뜨거운 물 20mL</br>각얼음 6~7개</br></br><b>HOW TO MAKE</b></br>1.제품과 뜨거운 물을 붓고 잘 풀어준다.</br>2.얼음과 우유가 담겨진 컵에 풀어진 말차 원액을 가장자리를 따라 천천히 붓는다.</br></br><b>TIPS</b></br>-일반 우유 외에도 식물성 우유(귀리, 두유)로 대체 가능</br>-말차의 진하기를 더욱 원하실 경우 제품 2~3g 추가</p>
+                    </div>
+                    <div class="recipes_img"><img src="/images/recipes_img02.gif" alt="슈퍼말차아이스라떼"></div>
+                </li> 
+                <li>
+                    <div class="recipes_tbox">
+                        <p class="recipes_name">ICED SUPER MATCHA ESPRESSO-DRINKS</br>#SUPER</p>
+                        <p class="recipes_text"><b>INGREDIENTS</b></br>제품 10~12g</br>우유 150mL</br>뜨거운 물 20mL</br>에스프레소 1샷</br>각얼음 6~7개</br></br><b>HOW TO MAKE</b></br>1.제품과 뜨거운 물을 붓고 잘 풀어준다.</br>2.풀어진 말차 원액에 얼음과 우유를 천천히 붓는다.</br>3.에스프레소 샷을 천천히 부어서 층을 만든다.</br></br><b>TIPS</b> </br>-기호에 따라 바닐라 시럽 10mL 추가</br>-기호에 따라 에스프레소 샷 용량 조정 (1샷 기준 30mL)</br>-고소한 원두보다 산미 있는 원두의 에스프레소 추천</p>
+                    </div>
+                    <div class="recipes_img"><img src="/images/recipes_img03.gif" alt="슈퍼말차에스프레소"></div>
+                </li>
+                <li>
+                    <div class="recipes_tbox">
+                        <p class="recipes_name">ICED SUPER MATCHA LATTE -DRINKS</br>#SUPER #COCO #CHAI</p>
+                        <p class="recipes_text"><b>INGREDIENTS</b></br>제품 10~12g</br>우유 130~150mL</br>뜨거운 물 20mL</br>각얼음 6~7개</br></br><b>HOW TO MAKE</b></br>1.제품과 뜨거운 물을 붓고 잘 풀어준다.</br>2.얼음과 우유가 담겨진 컵에 풀어진 말차 원액을 천천히 붓는다.</br></br><b>TIPS</b></br>-일반 우유 외에도 식물성 우유(귀리, 두유)로 대체 가능</br>-말차의 진하기를 더욱 원하실 경우 제품 2~3g 추가</p>
+                    </div>
+                    <div class="recipes_img"><img src="/images/recipes_img04.gif" alt="슈퍼말차라떼"></div>
+                </li> 
+            </ul>
+        </div>
+    </section>
+    <!-- recipes영역 끝 -->
+    <!-- partner영역 시작 -->
+    <div id="partner_wrap">
+        <section id="partner_inner">
+            <h2 class="partner_title">PARTNERSHIP</h2>
+            <ul id="partner_list">
+                <li>
+                    <div class="partner_circle"><a href="#;">DIRECT TRADING</a></div>
+                    <p class="partner_text">다원별 테이스팅을 통해 검증된 원물 소싱,</br>다이렉트 거래로 가장 최상등급의 품질</p>
+                </li>
+                <li>
+                    <div class="partner_circle"><a href="#;">CONTENTS SHARE</a></div class="partner_circle">
+                    <p class="partner_text">파트너 전용 폴더 드라이브로</br>포스터 이미지 디자인 자료 공유</p class="partner_text">
+                </li>
+                <li>
+                    <div class="partner_circle"><a href="#;">RECIPE BOOKS</a></div class="partner_circle">
+                    <p class="partner_text">다양한 제조 음료 및 푸드로</br>활용 가능한 슈퍼말차 전용 레시피 제공</p class="partner_text">
+                </li>
+                <li>
+                    <div class="partner_circle"><a href="#;">ONLINE BENEFITS</a></div class="partner_circle">
+                    <p class="partner_text">파트너 별도 할인가 구매,</br>상시 구매 시 2%씩 포인트 적립</p class="partner_text">
+                </li>
+            </ul>
+        </section>
+    </div>
+    <!-- partner영역 끝 -->
+    <!-- bg영역 시작 -->
+    <div id="bg_wrap"></div>
+    <!-- bg영역 끝 -->
+    <!-- sns영역 시작 -->
+    <div id="sns_wrap">
+        <section id="sns_inner">
+            <h2 id="sns_title">INSTAGRAM</h2>
+            <a id="sns_name" href="#;">SUPERMATCHA.OFFICIAL</a>
+            <ul id="sns_list">
+                <li><img src="/images/sns_img00.jpg" alt="슈퍼말차인스타그램"> </li>
+                <li><img src="/images/sns_img01.jpg" alt="슈퍼말차인스타그램"></li>
+                <li><img src="/images/sns_img02.jpg" alt="슈퍼말차인스타그램"></li>
+                <li><img src="/images/sns_img03.jpg" alt="슈퍼말차인스타그램"></li>
+            </ul>
+        </section>
+    </div>
+    <!-- sns영역 끝 -->
+    <!-- 하단영역 시작 -->
+    <div id="footer_wrap">
+        <footer>
+            <h2 class="hidden">하단정보영역</h2>
+            <ul id="footer_quickmenu_list">
+                <li><a href="#;">주문조회 &nbsp;&nbsp;|</a></li>
+                <li><a href="#;">CONTACT US &nbsp;&nbsp;|</a></li>
+                <li><a href="#;">TERMS&CONDITIONS &nbsp;&nbsp;|</a></li>
+                <li><a href="#;">GUIDE &nbsp;&nbsp;|</a></li>
+                <li><a href="#;">PRIVACY POLICY</a></li>
+            </ul>
+            <p id="footer_infor">COPYRIGHT © HITTHETEA | 주식회사 힛더티 | CEO : 황성호 | BUSINESS NUMBER : 532-81-00689 | SALES NUMBER : 2019-서울강남-00857 | 사업자정보확인</br>ADDRESS : 04768 서울특별시 성동구 서울숲6길 19 (성수동1가) | CS CENTER : 02-6953-3882 | E-MAIL : admin@hitthetea.com</p>
+            <ul id="footer_sns_list">
+                <li><a href="#;"><img src="/images/sns_icon0.gif" alt="인스타그램바로가기"></a></li>
+                <li><a href="#;"><img src="/images/sns_icon1.gif" alt="페이스북바로가기"></a></li>
+                <li><a href="#;"><img src="/images/sns_icon2.gif" alt="트위터바로가기"></a></li>
+            </ul>
+        </footer>
+    </div>
+    <!-- 하단영역 끝 -->
+</body>
+</html>

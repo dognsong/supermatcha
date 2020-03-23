@@ -1,0 +1,409 @@
+/* 기본설정 시작 */
+@font-face{
+    font-family:"Avenir";
+    src:url("/fonts/Avenir-Next-LT-Pro-Bold-Condensed_5181.ttf"), url("/fonts/Avenir-Next-LT-Pro-Bold-Condensed_5181.eot"), url("/fonts/Avenir-Next-LT-Pro-Bold-Condensed_5181.woff")
+}
+@font-face{
+    font-family:"notosansThin";
+    src:url("/fonts/NotoSansKR-Thin.otf"), url("/fonts/NotoSansKR-Thin.eot"), url("/fonts/NotoSansKR-Thin.woff")
+}
+.hidden{
+    width:1px; height:1px; font-size:0px; line-height:0px; 
+}
+/* 기본설정 끝 */
+/* 상단영역 시작 */
+div#header_wrap{
+    width:1920px; height:95px; float:left; background:black;
+}
+header{
+    width:1650px; height:100%; margin:0px auto; position:relative; left:0px; top:0px; 
+}
+h1#logo{
+    width:380px; height:50px; position:absolute; left:0px; top:25px;
+}
+h1#logo a{
+    font:normal 36px "Avenir"; color:#1faa50; text-decoration:none;
+}
+nav#mainmenu{
+    width:48%; height:16px; position:absolute; right:390px; top:40px; 
+}
+ul#mainmenu_list{
+    width:100%; height:100%;
+}
+ul#mainmenu_list li{
+    width:20%; height:100%; float:left; text-align:center;
+}
+ul#mainmenu_list li:last-child{
+    text-align:right;
+}
+ul#mainmenu_list li a{
+    font:normal 20px "Avenir"; color:#1faa50; text-decoration:none;
+}
+div#search_wrap{
+    width:250px; height:37px; position:absolute; right:0px; top:30px; 
+}
+input#search_box{
+    width:250px; height:37px; position:absolute; left:0px; top:0px; border-radius:37px; text-indent:20px;
+}
+span#serch_icon{
+    width:25px; height:25px; position:absolute; right:15px; top:10px; z-index:10;
+}
+/* 상단영역 끝 */
+/* 비주얼영역 시작 */
+div#visual_wrap{
+    width:1920px; height:975px; float:left; position:relative; left:0px; top:0px; 
+}
+div#visual_01{
+    width:71%; height:100%; background:url("/images/visual_01_img0.jpg") no-repeat center; background-size:cover;
+    position:absolute; left:0px; top:0px; 
+}
+div#visual_02{
+    width:29%; height:50%; background:url("/images/visual_02_img.jpg") no-repeat center; background-size:cover;
+    position:absolute; right:0px; top:0px; 
+}
+div#visual_03{
+    width:29%; height:50%; background:url("/images/visual_03_img0.jpg") no-repeat center; background-size:cover;
+    position:absolute; right:0px; bottom:0px;
+}
+div#visual_btn{
+    width:154px; height:77px; position:absolute; right:0px; bottom:0px; background:rgba(255,255,255,0.8);
+}
+span#visual_prev_btn{
+    width:16px; height:25px; position:absolute; left:25px; top:26px; 
+}
+span#visual_btn_line{
+    width:2px; height:32px; background:black; position:absolute; left:50%; margin-left:-1px; top:50%; margin-top:-16px;
+}
+span#visual_next_btn{
+    width:16px; height:25px; position:absolute; right:25px; top:26px; 
+}
+/* 비주얼영역 끝 */
+/* brand영역 시작 */
+div#brand_wrap{
+    width:1920px; height:1955px; float:left; margin-top:200px; 
+}
+section#brand_01{
+    width:1650px; height:700px; margin:0px auto; position:relative; left:0px; top:0px;
+}
+div#brand_01_tbox{
+    width:57.5%; float:left; position:absolute; left:100px; top:0px; z-index:10;
+}
+div#brand_01_img{
+    width:42.5%; float:left; position:absolute; right:0px; top:0px;
+}
+div#brand_01_img img{
+    width:100%; display:block;
+}
+p.brand_title{
+    width:570px; font:normal 76px/76px "Avenir"; margin-bottom:100px; position:relative; left:0px; top:0px; 
+}
+span#brand_01_title_solid{
+    width:565px; height:73px; display:block; position:absolute; left:-3px; bottom:0px; background:#fff046; z-index:-10;
+}
+p.brand_text{
+    font:normal 18px/27px "Noto Sans KR"; text-align:justify; 
+}
+p.brand_01_text{
+    width:63%; 
+}
+section#brand_02{
+    width:100%; height:1070px; margin-top:185px; position:relative; left:0px; top:0px;
+}
+div#brand_02_img{
+    width:61.5%; position:absolute; left:0px; top:0px; 
+}
+div#brand_02_img img{
+    width:100%; display:block;
+}
+div#brand_02_tbox{
+    width:88%; position:absolute; right:0px; bottom:200px; z-index:10; margin-right:12%; 
+}
+p.brand_02_title{
+    width:100%; text-align:right; position:relative; right:0px; top:0px;
+}
+span#brand_02_title_solid{
+    width:560px; height:73px; display:block; position:absolute; right:0px; bottom:0px; background:#fff046; z-index:-10;
+}
+p.brand_02_text{
+    width:26%; margin-left:74%;
+}
+/* brand영역 끝 */
+/* about영역 시작 */
+section#about_wrap{
+    width:1920px; height:600px; float:left; margin-top:230px;
+}
+div#about_tbox{
+    width:44%; height:100%; float:left; background:url("/images/aouot_bg.gif"); 
+}
+p#about_title{
+    width:171px; height:198px; position:relative; left:28%; top:-35px; 
+}
+p#about_subtitle{
+    width:55.5%; font:normal 1.75em "Noto Sans KR"; color:white; margin-left:28%; margin-right:16.5%; margin-top:15px;
+}
+p#about_text{
+    width:55.5%; font:normal 1.125em/27px "Noto Sans KR"; color:white; margin-left:28%; margin-right:16.5%; margin-top:30px; text-align:justify;
+}
+div#about_video_wrap{
+    width:56%; height:100%; float:left; overflow:hidden; background:black
+}
+div#about_video{
+    width:100%; padding-bottom:56.25%; position:relative; left:0px; top:0px;   
+}
+div#about_video video{
+    width:100%; display:block; height:100%; position:absolute; left:0px; top:0px;
+}
+/* about영역 끝 */
+/* efficacy영역 시작 */
+section#efficacy_wrap{
+    width:1920px; height:1080px; float:left; margin-top:200px; 
+}
+ul#efficacy_list{
+    width:100%; height:100%; 
+}
+ul#efficacy_list li{
+    width:33.333%; height:100%; float:left; position:relative; left:0px; top:0px;
+}
+ul#efficacy_list li:nth-child(1){
+    background:url("/images/efficacy_bg01.jpg") no-repeat center; background-size:cover;
+}
+ul#efficacy_list li:nth-child(2){
+    background:url("/images/efficacy_bg02.jpg") no-repeat center; background-size:cover;
+}
+ul#efficacy_list li:nth-child(3){
+    background:url("/images/efficacy_bg03.jpg") no-repeat center; background-size:cover;
+}
+div.efficacy_tbox{
+    width:84%; margin-left:16%; margin-top:200px; position:relative; left:0px; top:0px; z-index:10;
+}
+p.efficacy_title{
+    font:normal 2.25em "Avenir"; color:white; margin-bottom:20px; 
+}
+p.efficacy_subtitle{
+    font:normal 4.75em "Avenir"; color:white; margin-bottom:60px; 
+}
+p.efficacy_text{
+    font:normal 1.5em "Noto Sans KR"; color:white; margin-bottom:40px; 
+}
+
+div.efficacy_infor{
+    width:84%; height:380px; position:relative; left:16%; top:510px; z-index:10; opacity:0;
+}
+p.efficacy_infor_text{
+    width:84%; font:normal 18px/27px "Noto Sans KR"; text-align:justify; color:white; margin-bottom:70px; 
+}
+p.efficacy_infor_img{
+    width:90%;
+}
+p.efficacy_infor_img img{
+    width:100%; display:block;
+}
+p.efficacy_infor_02_img{
+    width:30%;
+}
+
+div.gray_layer{
+    width:100%; height:100%; background:rgba(0,0,0,0.6); position:absolute; left:0px; top:0px; opacity:0;
+}
+/* efficacy영역 끝 */
+/* product영역 시작 */
+section#product_wrap{
+    width:1920px; height:995px; float:left; margin-top:200px; overflow:hidden;
+}
+h2#product_title{
+    font:normal 75px "Avenir"; margin-bottom:30px; text-align:center;
+}
+p#product_subtitle{
+    font:normal 40px "Avenir"; margin-bottom:60px; text-align:center;
+}
+div#product_btn{
+    width:214px; height:20px; margin:0px auto; 
+}
+span#product_prev_btn{
+    margin-right:24px; float:left;
+}
+span#product_prev_btn img, span#product_next_btn img{
+    display:block;
+}
+span#product_line{
+    width:3px; height:18px; margin-top:1px; margin-right:24px; background:black; display:block; float:left; 
+}
+span#product_next_btn{
+    float:left; 
+}
+ul#product_list{
+    width:200%; height:640px; margin-top:110px; position:relative; left:0px; top:0px; 
+}
+ul#product_list li{
+    width:12.5%; height:100%; float:left; background:#e4ebe7;
+}
+ul#product_list li:hover{
+    background:#cdd4d0;
+}
+ul#product_list li a{
+    width:100%; height:100%; display:block; text-decoration:none; color:black;
+}
+p.product_img{
+    width:100%; margin-bottom:25px; 
+}
+p.product_img img{
+    width:100%; display:block;
+}
+p.product_name{
+    font:normal 1.5em/36px "Noto Sans KR"; margin-bottom:25px; margin-left:40px;
+}
+p.product_price{
+    font:normal 1.5em "Noto Sans KR"; margin-left:40px;
+}
+/* product영역 끝 */
+/* recipes영역 시작 */
+section#recipes_wrap{
+    width:1920px; height:1000px; float:left; 
+}
+div#recipes_left{
+    width:29%; height:100%; float:left; background:#1faa50; position:relative; left:0px; top:0px; 
+}
+div#recipes_name_box{
+    width:520px; height:100%; border-left:solid 2px white; margin-left:135px; position:absolute; left:0px; top:0px;
+}
+p#recipes_title{
+    font:normal 75px "Avenir"; color:white; margin-top:150px; margin-left:60px;
+}
+ul#recipes_name_list{
+    width:100%; margin-top:150px;
+}
+ul#recipes_name_list li{
+    width:100%; height:40px; font:normal 2.188em "Avenir"; margin-bottom:60px; text-indent:70px; background:url("/images/recipes_icon.png") no-repeat; 
+    position:relative; left:-9px; top:0px; 
+}
+ul#recipes_name_list li.selected{
+    font:normal 3.125em "Avenir"; background:url("/images/recipes_icon_selected.png") no-repeat; height:60px; 
+}
+ul#recipes_name_list li a{
+    text-decoration:none; color:#c2ebd1;
+}
+ul#recipes_name_list li.selected a{
+    color:white;
+}
+div#recipes_right{
+    width:71%; height:100%; float:left; background:#1a1a1a; 
+}
+ul#recipes_list{
+    width:90%; height:640px;  position:relative; left:10%; top:360px; 
+}
+ul#recipes_list li{
+    width:100%; height:100%; position:absolute; left:0px; top:0px; display:none;
+}
+div.recipes_tbox{
+    width:46%; float:left; 
+}
+p.recipes_name{
+    width:90%; font:normal 1.5em "Noto Sans KR"; color:white; margin-bottom:40px;
+}
+p.recipes_text{
+    font:normal 1em/27px "notosansThin"; color:white; border-top:solid 1px white; padding-top:30px;
+}
+div.recipes_img{
+    width:44%; float:left; margin-right:10%; margin-top:30px;
+}
+div.recipes_img img{
+    width:100%; display:block;
+}
+/* recipes영역 끝 */
+/* partner영역 시작 */
+div#partner_wrap{
+    width:1920px; height:600px; margin-top:200px; float:left;
+}
+section#partner_inner{
+    width:1650px; height:100%; margin:0px auto; 
+}
+h2.partner_title{
+    font:normal 75px "Avenir"; margin-bottom:80px; 
+}
+ul#partner_list{
+    width:100%; height:100%; 
+}
+ul#partner_list li{
+    width:25%; height:100%; float:left; text-align:center; 
+}
+div.partner_circle{
+    width:246px; height:246px; border-radius:123px; border:solid 6px #1faa50; margin:0px auto; margin-bottom:35px; box-sizing:border-box;
+    position:relative; left:0px; top:0px; 
+}
+div.partner_circle a{
+    width:100%; height:90px; display:block; font:normal 46px/50px "Avenir"; color:#1faa50; text-decoration:none;
+    position:absolute; left:0px; top:50%; margin-top:-50px; 
+}
+p.partner_text{
+    font:bold 1.125em/27px "Noto Sans KR"; text-align:center; 
+}
+ul#partner_list li div.selected{
+    border:none; background:black;
+}
+ul#partner_list li div.selected a{
+    color:#fff046; 
+}
+/* partner영역 끝 */
+/* bg영역 시작 */
+div#bg_wrap{
+    width:1920px; height:455px; float:left; background:url("/images/bg.jpg") no-repeat center; background-size:cover; 
+}
+/* bg영역 끝 */
+/* sns영역 시작 */
+div#sns_wrap{
+    width:1920px; height:800px; float:left; padding-top:200px; background:#efefef; 
+}
+section#sns_inner{
+    width:1650px; height:100%; margin:0px auto; 
+}
+h2#sns_title{
+    font:normal 75px "Avenir"; text-align:center; margin-bottom:30px; 
+}
+a#sns_name{
+    width:290px; height:40px; font:normal 24px "Avenir"; margin:0px auto; padding-top:5px; text-decoration:none; color:black;
+    background:url("/images/sns_logo.gif") no-repeat; text-indent:57px; display:block;
+}
+ul#sns_list{
+    width:100%; height:390px; margin-top:60px; 
+}
+ul#sns_list li{
+    width:23.5%; float:left; margin-right:2%; position:relative; left:0px; top:0px;
+}
+ul#sns_list li:last-child{
+    margin-right:0px;
+}
+ul#sns_list li img{
+    width:100%; display:block;
+}
+/* sns영역 끝 */
+/* 하단영역 시작 */
+div#footer_wrap{
+    width:1920px; height:315px; clear:both; background:black;
+}
+footer{
+    width:1000px; height:150px; margin:0px auto; padding-top:80px;
+}
+ul#footer_quickmenu_list{
+    width:710px; margin:0px auto;  
+}
+ul#footer_quickmenu_list li{
+    float:left; text-indent:15px;
+}
+ul#footer_quickmenu_list li:first-child{
+    text-indent:0px;
+}
+ul#footer_quickmenu_list li a{
+    font:bold 18px "Noto Sans KR"; color:#1faa50; text-decoration:none;
+}
+p#footer_infor{
+    width:100%; clear:both; font:normal 14px/21px "Noto Sans KR"; color:#1faa50; text-align:center; margin-top:40px;
+}
+ul#footer_sns_list{
+    width:132px; height:28px; margin:0px auto; margin-top:30px;
+}
+ul#footer_sns_list li{
+    width:28px; height:28px; float:left; margin-right:24px; 
+}
+ul#footer_sns_list li:last-child{
+    margin-right:0px;
+}

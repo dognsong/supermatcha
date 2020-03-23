@@ -1,0 +1,71 @@
+@media screen and (max-width:1920px){
+    div#header_wrap, div#visual_wrap, div#brand_wrap, section#about_wrap, section#efficacy_wrap, section#product_wrap, 
+    section#recipes_wrap, div#partner_wrap, div#bg_wrap, div#sns_wrap, div#footer_wrap{
+        width:100%; 
+    }
+}
+@media screen and (max-width:1650px){
+    header, section#brand_01, section#partner_inner, section#sns_inner{
+        width:95%; 
+    }
+    nav#mainmenu{
+        right:340px;
+    }
+    div#brand_wrap{
+        height:1730px;
+    }
+    div#brand_01_tbox{
+        width:50%;
+    }
+    div#brand_01_img{
+        width:50%; 
+    }
+    section#brand_02{
+        height:850px;
+    }
+    p#about_subtitle{
+        margin-top:20px;
+    }
+    section#product_wrap{
+        height:885px;
+    }
+    ul#product_list{
+        height:530px; 
+    }
+    div#recipes_left{
+        width:36%;
+    }
+    div#recipes_right{
+        width:64%;
+    }
+}
+@media screen and (max-width:1200px){
+    body{
+        font-size:13px;
+    }
+    div#header_wrap, div#visual_wrap, div#brand_wrap, section#about_wrap, section#efficacy_wrap, section#product_wrap, 
+    section#recipes_wrap, div#partner_wrap, div#bg_wrap, div#sns_wrap, div#footer_wrap{
+        width:1200px;
+    }
+    nav#mainmenu{
+        right:310px;
+    }
+    section#about_wrap{
+        margin-top:80px;
+    }
+    section#product_wrap{
+        height:805px;
+    }
+    ul#product_list{
+        height:450px; 
+    }
+    div#recipes_left{
+        width:40%;
+    }
+    div#recipes_right{
+        width:60%;
+    }
+    div#sns_wrap{
+        height:700px;
+    }
+}
